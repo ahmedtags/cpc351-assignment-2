@@ -1,5 +1,18 @@
 # CPC351 - Principles of Data Analytics (Assignment 2)
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python%20(EDA)-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Language" />
+  <img src="https://img.shields.io/badge/Course-CPC351-24292e?style=for-the-badge" alt="Course" />
+  <a href="https://github.com/ahmedtags">
+    <img src="https://img.shields.io/badge/Profile-ahmedtags-D9A34A?style=for-the-badge&logo=github&logoColor=white" alt="Profile" />
+  </a>
+  <a href="https://blxman-37fy.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-blxman--37fy-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
+
+---
+
 This repository contains the R programming implementation for **CPC351: Principles of Data Analytics - Assignment 2** (Semester 1, Academic Session 2025/2026) at Universiti Sains Malaysia (USM).
 
 ## Course Details
@@ -97,4 +110,3 @@ Here is the data summary and analytical outputs generated from `Food_Nutrition_D
 - **Bacon and tomato dressing:** 35.00g fat
 - **Potato sticks, flavored:** 34.06g fat
 - **Potato chips, plain:** 33.98g fat
-
