@@ -55,3 +55,46 @@ The assignment involves a complete Exploratory Data Analysis (EDA) and visualiza
 4. Set the working directory to the folder containing these files.
 5. Install any required visualization packages (e.g., `ggplot2`, `corrplot` if used).
 6. Run the script to generate all figures and numerical outputs.
+
+---
+
+## 📸 Sample Output
+
+Here is the data summary and analytical outputs generated from `Food_Nutrition_Dataset.csv`:
+
+### 1. Dataset Shape & Missing Values
+- **Total Records:** 205 foods
+- **Columns:** food_name, category, calories, protein, carbs, fat, iron, vitamin_c
+- **Missing Values:** `iron` (2 missing), `vitamin_c` (3 missing)
+
+### 2. Top Food Categories in Dataset
+1. **Fruits and Fruit Juices:** 23 foods
+2. **Vegetables and Vegetable Products:** 17 foods
+3. **Cakes and pies:** 12 foods
+4. **Yeast breads:** 11 foods
+5. **Beverages:** 8 foods
+
+### 3. Top 5 Foods with the Highest Calorie Content (per 100g)
+1. **Garlic bread, frozen:** 1460.0 kcal
+2. **PIZZA HUT, breadstick, parmesan garlic:** 1430.0 kcal
+3. **Fast foods, breadstick, soft (garlic/parmesan):** 1430.0 kcal
+4. **Mango, dried, sweetened:** 1340.0 kcal
+5. **Blueberries, dried, sweetened:** 1330.0 kcal
+
+### 4. Correlation Matrix of Macronutrients
+| Nutrient | Calories | Protein | Carbs | Fat | Iron | Vitamin C |
+|---|---|---|---|---|---|---|
+| **Calories** | 1.000 | 0.412 | 0.580 | 0.363 | 0.372 | -0.105 |
+| **Protein** | 0.412 | 1.000 | 0.303 | 0.344 | 0.712 | -0.151 |
+| **Carbs** | 0.580 | 0.303 | 1.000 | 0.218 | 0.416 | -0.098 |
+| **Fat** | 0.363 | 0.344 | 0.218 | 1.000 | 0.255 | -0.199 |
+
+*Insight: Carb content has the highest correlation with calorie count (0.580), and protein is strongly correlated with iron content (0.712).*
+
+### 5. High-Fat Outliers (> 95th Percentile = 24.5g)
+- **Garlic sauce:** 74.02g fat
+- **Onion dip, regular:** 35.77g fat
+- **Bacon and tomato dressing:** 35.00g fat
+- **Potato sticks, flavored:** 34.06g fat
+- **Potato chips, plain:** 33.98g fat
+
